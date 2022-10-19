@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+button {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    background-color: rgb(155, 155, 155);
+    
+}
+.container {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 30px;
+    background-color: #C850C0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow:
+  -8.2px -6.5px 3.4px rgba(0, 0, 0, 0.1),
+  -14.1px -11.1px 8.2px rgba(0, 0, 0, 0.069),
+  -16.4px -13px 15.4px rgba(0, 0, 0, 0.056),
+  -12.3px -9.7px 27.5px rgba(0, 0, 0, 0.046),
+  8px 6.3px 51.4px rgba(0, 0, 0, 0.035),
+  124px 98px 123px rgba(0, 0, 0, 0.021)
+;
+}
+
+.container div:not(:last-child) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.container div:last-child {
+    display: flex;
+    align-items: center;
+}
+.container div:last-child span {
+    margin-right: 30px
+}
+
+.container p {
+    margin-bottom:20px ;
+    background-color: #4158D0;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow:
+  -8.2px -6.5px 3.4px rgba(0, 0, 0, 0.1),
+  -14.1px -11.1px 8.2px rgba(0, 0, 0, 0.069),
+  -16.4px -13px 15.4px rgba(0, 0, 0, 0.056),
+  -12.3px -9.7px 27.5px rgba(0, 0, 0, 0.046),
+  8px 6.3px 51.4px rgba(0, 0, 0, 0.035),
+  124px 98px 123px rgba(0, 0, 0, 0.021)
+;
+}
